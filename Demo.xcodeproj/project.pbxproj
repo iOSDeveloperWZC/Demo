@@ -13,6 +13,16 @@
 		26348ED41DF2E5A40037E219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26348ED21DF2E5A40037E219 /* Main.storyboard */; };
 		26348ED61DF2E5A40037E219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26348ED51DF2E5A40037E219 /* Assets.xcassets */; };
 		26348ED91DF2E5A40037E219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26348ED71DF2E5A40037E219 /* LaunchScreen.storyboard */; };
+		26348EE21DF2E5C10037E219 /* TimeStageSelectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EE11DF2E5C10037E219 /* TimeStageSelectWindow.m */; };
+		26348EF51DF2E6530037E219 /* TableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EE61DF2E6530037E219 /* TableViewHeaderView.m */; };
+		26348EF61DF2E6530037E219 /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EE81DF2E6530037E219 /* LeftTableViewCell.m */; };
+		26348EF71DF2E6530037E219 /* RightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EEA1DF2E6530037E219 /* RightTableViewCell.m */; };
+		26348EF81DF2E6530037E219 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EEC1DF2E6530037E219 /* CategoryModel.m */; };
+		26348EF91DF2E6530037E219 /* SigleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EEE1DF2E6530037E219 /* SigleModel.m */; };
+		26348EFA1DF2E6530037E219 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EF01DF2E6530037E219 /* FoodModel.m */; };
+		26348EFB1DF2E6530037E219 /* ShoppingCarPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EF21DF2E6530037E219 /* ShoppingCarPopView.m */; };
+		26348EFC1DF2E6530037E219 /* ShoppingCarcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EF41DF2E6530037E219 /* ShoppingCarcell.m */; };
+		26348EFF1DF2E6840037E219 /* NSObject+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 26348EFE1DF2E6840037E219 /* NSObject+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		26348ED51DF2E5A40037E219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26348ED81DF2E5A40037E219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26348EDA1DF2E5A40037E219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26348EE01DF2E5C10037E219 /* TimeStageSelectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStageSelectWindow.h; sourceTree = "<group>"; };
+		26348EE11DF2E5C10037E219 /* TimeStageSelectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStageSelectWindow.m; sourceTree = "<group>"; };
+		26348EE51DF2E6530037E219 /* TableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderView.h; sourceTree = "<group>"; };
+		26348EE61DF2E6530037E219 /* TableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderView.m; sourceTree = "<group>"; };
+		26348EE71DF2E6530037E219 /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		26348EE81DF2E6530037E219 /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		26348EE91DF2E6530037E219 /* RightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewCell.h; sourceTree = "<group>"; };
+		26348EEA1DF2E6530037E219 /* RightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewCell.m; sourceTree = "<group>"; };
+		26348EEB1DF2E6530037E219 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		26348EEC1DF2E6530037E219 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		26348EED1DF2E6530037E219 /* SigleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigleModel.h; sourceTree = "<group>"; };
+		26348EEE1DF2E6530037E219 /* SigleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigleModel.m; sourceTree = "<group>"; };
+		26348EEF1DF2E6530037E219 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		26348EF01DF2E6530037E219 /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		26348EF11DF2E6530037E219 /* ShoppingCarPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarPopView.h; sourceTree = "<group>"; };
+		26348EF21DF2E6530037E219 /* ShoppingCarPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarPopView.m; sourceTree = "<group>"; };
+		26348EF31DF2E6530037E219 /* ShoppingCarcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarcell.h; sourceTree = "<group>"; };
+		26348EF41DF2E6530037E219 /* ShoppingCarcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarcell.m; sourceTree = "<group>"; };
+		26348EFD1DF2E6840037E219 /* NSObject+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Color.h"; sourceTree = "<group>"; };
+		26348EFE1DF2E6840037E219 /* NSObject+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,8 @@
 		26348EC81DF2E5A40037E219 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				26348EE41DF2E5E80037E219 /* 购物车及商品 */,
+				26348EE31DF2E5D20037E219 /* 智能时间选择器 */,
 				26348ECC1DF2E5A40037E219 /* AppDelegate.h */,
 				26348ECD1DF2E5A40037E219 /* AppDelegate.m */,
 				26348ECF1DF2E5A40037E219 /* ViewController.h */,
@@ -77,6 +109,40 @@
 				26348ECA1DF2E5A40037E219 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26348EE31DF2E5D20037E219 /* 智能时间选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				26348EE01DF2E5C10037E219 /* TimeStageSelectWindow.h */,
+				26348EE11DF2E5C10037E219 /* TimeStageSelectWindow.m */,
+			);
+			name = "智能时间选择器";
+			sourceTree = "<group>";
+		};
+		26348EE41DF2E5E80037E219 /* 购物车及商品 */ = {
+			isa = PBXGroup;
+			children = (
+				26348EFD1DF2E6840037E219 /* NSObject+Color.h */,
+				26348EFE1DF2E6840037E219 /* NSObject+Color.m */,
+				26348EE51DF2E6530037E219 /* TableViewHeaderView.h */,
+				26348EE61DF2E6530037E219 /* TableViewHeaderView.m */,
+				26348EE71DF2E6530037E219 /* LeftTableViewCell.h */,
+				26348EE81DF2E6530037E219 /* LeftTableViewCell.m */,
+				26348EE91DF2E6530037E219 /* RightTableViewCell.h */,
+				26348EEA1DF2E6530037E219 /* RightTableViewCell.m */,
+				26348EEB1DF2E6530037E219 /* CategoryModel.h */,
+				26348EEC1DF2E6530037E219 /* CategoryModel.m */,
+				26348EED1DF2E6530037E219 /* SigleModel.h */,
+				26348EEE1DF2E6530037E219 /* SigleModel.m */,
+				26348EEF1DF2E6530037E219 /* FoodModel.h */,
+				26348EF01DF2E6530037E219 /* FoodModel.m */,
+				26348EF11DF2E6530037E219 /* ShoppingCarPopView.h */,
+				26348EF21DF2E6530037E219 /* ShoppingCarPopView.m */,
+				26348EF31DF2E6530037E219 /* ShoppingCarcell.h */,
+				26348EF41DF2E6530037E219 /* ShoppingCarcell.m */,
+			);
+			name = "购物车及商品";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +218,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				26348ED11DF2E5A40037E219 /* ViewController.m in Sources */,
+				26348EF91DF2E6530037E219 /* SigleModel.m in Sources */,
+				26348EF81DF2E6530037E219 /* CategoryModel.m in Sources */,
+				26348EF51DF2E6530037E219 /* TableViewHeaderView.m in Sources */,
+				26348EF61DF2E6530037E219 /* LeftTableViewCell.m in Sources */,
+				26348EE21DF2E5C10037E219 /* TimeStageSelectWindow.m in Sources */,
+				26348EFB1DF2E6530037E219 /* ShoppingCarPopView.m in Sources */,
+				26348EF71DF2E6530037E219 /* RightTableViewCell.m in Sources */,
+				26348EFF1DF2E6840037E219 /* NSObject+Color.m in Sources */,
 				26348ECE1DF2E5A40037E219 /* AppDelegate.m in Sources */,
 				26348ECB1DF2E5A40037E219 /* main.m in Sources */,
+				26348EFC1DF2E6530037E219 /* ShoppingCarcell.m in Sources */,
+				26348EFA1DF2E6530037E219 /* FoodModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
